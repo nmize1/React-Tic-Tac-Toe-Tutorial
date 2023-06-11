@@ -61,7 +61,7 @@ export default function Game()
       </div>
       <div className="game-info">
         <button onClick={reverseList}>Sort Turns Asc/Desc</button>
-        <ol>{rev ? moves.reverse() : moves}</ol> // order the list based on rev
+        <ol>{rev ? moves.reverse() : moves}</ol> 
         <ol>You are on move #{curMove + 1}</ol>
       </div>
     </div>
